@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAdibFlix.MainPage">
+
+    <StackLayout BackgroundColor="#191919">
+        <Label Text="DS FLIX" TextColor="#4BFFBC" FontSize="80" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+
+        </Label>
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*,*" BackgroundColor="#191919">
+            <Button Text="Aventura" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="Btn_Open_Aventura" TextColor="#4BFFBC" BackgroundColor="Black"/>
+            <Button Text="Ação" Grid.Row="0" Grid.Column="1" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="Btn_Open_Acao" TextColor="#4BFFBC" BackgroundColor="Black"/>
+            <Button Text="Terror" Grid.Row="1" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="Btn_Open_Terror" TextColor="#4BFFBC" BackgroundColor="Black"/>
+            <Button Text="Drama" Grid.Row="1" Grid.Column="1" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="Btn_Open_Drama" TextColor="#4BFFBC" BackgroundColor="Black"/>
+        </Grid>
+    </StackLayout>
+    
+
+</ContentPage>

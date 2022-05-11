@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAdibFlix.Categorias.Acao">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#191919">
+            <Label Text="DS FLIX" TextColor="#4BFFBC" FontSize="80" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+
+            </Label>
+            <Grid ColumnDefinitions="*" RowDefinitions="*" BackgroundColor="#191919">
+                <ImageButton x:Name="btnJohn" Grid.Row="0" Grid.Column="0"  Clicked="btnJohn_Clicked" Aspect="AspectFill" HeightRequest="900" WidthRequest="900"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

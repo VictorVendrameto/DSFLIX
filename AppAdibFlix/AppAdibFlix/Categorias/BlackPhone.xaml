@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAdibFlix.Categorias.BlackPhone">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#191919">
+            <Grid ColumnDefinitions="*,*" RowDefinitions="250, 50, *" BackgroundColor="#191919">
+                <WebView x:Name="webview" Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" VerticalOptions="FillAndExpand" BackgroundColor="#191919"/>
+                <Image x:Name="poster" Grid.Row="2" Grid.Column="0" Aspect="AspectFill" HeightRequest="370" WidthRequest="370"/>
+
+                <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="#191919">
+                    <Label Text="Nome: " TextColor="#4BFFBC"/>
+                    <Label Text="Black Phone " TextColor="White"/>
+                    <Label Text="Data de lançamento: " TextColor="#4BFFBC"/>
+                    <Label Text="23 de junho de 2022 " TextColor="White"/>
+                    <Label Text="Direção: " TextColor="#4BFFBC"/>
+                    <Label Text="Scott Derrickson " TextColor="White"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
